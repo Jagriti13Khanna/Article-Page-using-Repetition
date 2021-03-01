@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playfair+Display:wght@400;500;900&display=swap');
+
+article {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	background: #c2ebf9;
+}
+
+header{
+	background: rgb(222,192,222);
+	padding: 15px;
+	height: 110px;
+}
+
+header h1 {
+	font-size: 60px;
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 2px 2px #ea4746;
+}
+
+header span,
+footer span {
+	color: #ea4746;
+	font-weight: 800;
+}
+
+header span {
+	text-shadow: 2px 2px white;
+}
+
+header p {
+	float: right;
+	font-family: 'Cedarville Cursive', cursive;
+	color: #ea4746;
+	font-weight: 600;
+	font-size: 33px;
+	/*padding: 15px 0px;*/
+	padding: 15px 50px 15px 0px;
+}
+
+.intro {
+	padding: 20px 40px;
+}
+
+.intro h3,
+.sketching h2 {
+	color: #ea4746;
+	font-size: 35px;
+	font-weight: 500;
+	text-shadow: 2px 2px white;
+}
+
+.intro p,
+.sketching p,
+.sketching ul {
+	color: #5c5e60;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	padding-top: 10px;
+}
+
+.intro img,
+.sketching img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px double #ea4746;
+    padding: 5px;
+}
+
+.intro figcaption,
+.sketching figcaption {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ea4746;
+    font-weight: 500;
+    padding: 8px 0px;
+   /* text-decoration: underline;*/
+}
+
+.sketching {
+	padding: 0px 40px 0px 40px;
+}
+
+.sketching h3 {
+	color: #ea4746;
+	font-size: 25px;
+	text-decoration: underline;
+	padding: 8px 0px 2px 0px;
+	font-weight: 500;
+}
+
+.sketching figcaption {
+	padding-bottom: 25px;
+}
+
+.sketching h2 {
+	padding-top: 20px;
+}
+
+.padding-bottom {
+	padding-bottom: 20px;
+}
+
+.sketching ul {
+	padding: 8px 20px;
+}
+
+.padding-top {
+	padding-top: 20px;
+}
+
+footer{
+	background: rgb(222,192,222);
+	padding: 15px;
+	height: 78px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	font-size: 23px;
+	/*font-style: italic;*/
+	padding: 15px;
+	line-height: 25px;
+}
+
+ul {
+  list-style: none; 
+}
+
+ul li::before {
+  content: "\2022";  
+  color: #ea4746; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+
+hr {
+  border-top: 2px solid #ea4746;
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+}
+
+#horizontal {
+	margin-left: 40px;
+	margin-right: 36px;
+}
